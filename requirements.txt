@@ -1,0 +1,13 @@
+torch
+torchvision
+ultralytics
+huggingface_hub
+transformers
+pillow
+numpy
+pytest
+# Core ML export of the detectors (needs numpy<2.3 and torch<=2.7; see docs/background/option_results.md)
+coremltools
+# macOS only: AX, Vision OCR, window capture
+pyobjc; sys_platform == "darwin"
+# optional detectors benchmarked in scripts/eval/optbench_detect.py: rfdetr (UI-DETR-1)

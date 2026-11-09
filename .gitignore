@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.vendor/
+/data
+/runs/
+*.mlpackage/
+.DS_Store
+.env

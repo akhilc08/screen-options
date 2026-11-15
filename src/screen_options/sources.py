@@ -16,6 +16,7 @@ class Item:
     sources: set = field(default_factory=set)
     context: list = field(default_factory=list)
     ax_index: int | None = None      # index into the AX element list, for pressing through AX
+    conf: float = 0.0                # highest detector confidence among the detections merged into this item
 
     def describe(self):
         tag = "+".join(sorted(self.sources))
@@ -70,21 +71,46 @@ def merge(ax_elements, ocr, det, window_frame):
             continue
         items.append(Item(box=line["box"], label=line["text"], role="text", sources={"ocr"}))
     need_caption = []
+    # Item boxes as arrays (grown as icons are added), so each detection is matched against all items at once:
+    # the same tests as iou() / contains() / area() below, vectorised (hundreds of boxes per screen).
+    import numpy as np
+    B = np.zeros((len(items) + len(det), 4))
+    for i, it in enumerate(items):
+        B[i] = it.box
+    n = len(items)
     for d in det:
         b = d["box"]
-        best = max(range(len(items)), key=lambda i: iou(items[i].box, b), default=None)
-        if best is not None and iou(items[best].box, b) > 0.3:
-            items[best].sources.add("det")
-            continue
-        inside = [i for i, it in enumerate(items) if contains(b, center(it.box)) and area(it.box) <= area(b) * 1.5]
+        c = d.get("conf", 0.0)
+        X, Y, Wd, Ht = B[:n, 0], B[:n, 1], B[:n, 2], B[:n, 3]
+        if n:
+            ix = np.maximum(0, np.minimum(X + Wd, b[0] + b[2]) - np.maximum(X, b[0]))
+            iy = np.maximum(0, np.minimum(Y + Ht, b[1] + b[3]) - np.maximum(Y, b[1]))
+            inter = ix * iy
+            union = Wd * Ht + b[2] * b[3] - inter
+            ious = np.divide(inter, union, out=np.zeros(n), where=union != 0)
+            best = int(np.argmax(ious))
+            if ious[best] > 0.3:
+                items[best].sources.add("det")
+                items[best].conf = max(items[best].conf, c)
+                continue
+            cx, cy = X + Wd / 2, Y + Ht / 2
+            ok = ((b[0] - 2 <= cx) & (cx <= b[0] + b[2] + 2) & (b[1] - 2 <= cy) & (cy <= b[1] + b[3] + 2)
+                  & (Wd * Ht <= area(b) * 1.5))
+            inside = np.flatnonzero(ok).tolist()
+        else:
+            inside = []
         if inside:
             for i in inside:
                 items[i].sources.add("det")
+                items[i].conf = max(items[i].conf, c)
             continue
         hit = smallest_containing(items[:n_ax], center(b), max_area=area(b) * 4)
         if hit is not None:
             items[hit].sources.add("det")
+            items[hit].conf = max(items[hit].conf, c)
             continue
-        items.append(Item(box=b, role="icon", sources={"det"}))
+        items.append(Item(box=b, role="icon", sources={"det"}, conf=c))
+        B[n] = b
+        n += 1
         need_caption.append(len(items) - 1)
     return items, need_caption

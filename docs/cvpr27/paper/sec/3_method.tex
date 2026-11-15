@@ -1,0 +1,103 @@
+\section{Method}
+\label{sec:method}
+
+Given a screenshot $I$ and an instruction $q$, we produce an ordered list of options
+$(c_1,\dots,c_K)$, each a box with a role (text or icon) and, for the options kept, a label. A separate
+\emph{selector} model receives the list and picks one option. We do not train or modify the selector.
+The pipeline has three stages: candidate generation (\cref{sec:candidates}), instruction-aware ranking
+(\cref{sec:ranker}) and labelling of the kept icons.
+
+\subsection{Candidates from pixels}
+\label{sec:candidates}
+
+\paragraph{Sources.}
+\emph{Text:} OCR lines (Apple Vision, accurate mode) give boxes and their strings for free.
+\emph{Elements:} a detector we fine-tune on accessibility labels (below), run on the full screenshot plus
+overlapping tiles of about $1280$ px when the screen is large, so that 16 px icons on a 4K screen keep their
+detail. Tile detections that touch a tile edge are dropped, and the rest are merged by NMS.
+\emph{Icons:} OmniParser v2's icon detector~\cite{lu2024omniparser}, run the same way, with its confidences
+halved so that our detector's boxes take precedence where both fire.
+
+\paragraph{A detector trained on free accessibility labels.}
+When an application exposes its AX tree, the tree is a free but incomplete source of labels. We collected
+19{,}898 deduplicated macOS screenshots of 115 applications and websites with their AX trees and split them
+\emph{by application} (80 / 12 / 23 apps for train / val / test). The labels are the visible actionable AX
+elements. To fill in controls that AX omits, we add boxes from a public GUI detector (GPA-GUI-Detector) with
+confidence $\ge 0.5$ that overlap no AX box (IoU $<0.3$). We leave out screens with almost no AX elements, which
+would teach the detector to ignore real controls. We fine-tune GPA-GUI-Detector (YOLO11m) on these labels at
+$1280$ px for 15 epochs. On the 3{,}275 screens of the 23 held-out applications (\cref{tab:detector}), the
+fine-tuned detector boxes more of the AX elements than the public detectors (72.6\% at IoU${\ge}0.5$ vs.\ at most
+61.6\%) and is the fastest. Training on AX boxes alone gives the best box quality. Adding the GPA boxes raises the
+share of AX elements whose centre falls inside some detection, which is what a click needs, from 90.0\% to 97.3\%,
+at 65 instead of 49 boxes per screen.
+
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{l rrrrr}
+\toprule
+Detector (1280 px) & mAP50 & R@.5 & centre & boxes & ms \\
+\midrule
+GPA-GUI-Detector & 37.1 & 56.2 & 95.7 & 58 & 57 \\
+OmniParser v2 & 52.1 & 61.6 & 78.9 & 37 & 42 \\
+Screen2AX$^\ast$ & 17.8 & 40.9 & 71.6 & 59 & 34 \\
+Ours, AX labels only & \textbf{66.7} & 71.1 & 90.0 & 49 & 21 \\
+Ours, AX + GPA labels & 62.1 & \textbf{72.6} & \textbf{97.3} & 65 & 21 \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Detectors on held-out applications} (3{,}275 screens, 142k AX elements). R@.5: AX boxes matched at
+IoU${\ge}0.5$; centre: AX boxes whose centre lies inside a detection; boxes: median per screen; ms: per image on an
+A10G, untiled. $^\ast$At 640 px, its better setting.}
+\label{tab:detector}
+\end{table}
+
+\paragraph{Merging.}
+Sources are merged into one list. OCR lines enter first. A detection whose IoU with an existing item exceeds $0.3$,
+or that encloses the centres of items no more than $1.5\times$ its area, only adds its source tag and confidence to
+them; otherwise it becomes a new \emph{icon} item. Text items carry their OCR string; icons have no label yet.
+
+\subsection{Instruction-aware ranking}
+\label{sec:ranker}
+
+A screen of a professional application yields 300--600 candidates (\cref{tab:main}). Captioning every icon is the
+most expensive step of pixel parsing, and a long list also makes the selector's choice harder. We therefore rank
+all candidates against the instruction first and keep only the top $K$.
+
+\paragraph{Scoring.}
+Each candidate $c$ is shown to an image encoder $f_I$ as a \emph{context crop}: a square window centred on the box,
+three times its longer side (at least 96 px), clipped to the screen and resized to the encoder's input size, with
+the candidate outlined in red (line width about $1/112$ of the window). The outline tells the model which element
+is meant~\cite{shtedritski2023redcircle}, and the window shows its neighbours, \eg the label next to an icon or the
+toolbar it sits in. The instruction is encoded by the text encoder $f_T$ and
+\begin{equation}
+  s(q,c) = \tau\,\langle f_T(q), f_I(\mathrm{crop}(I,c)) \rangle ,
+\end{equation}
+with unit-normalised embeddings and SigLIP's learned temperature $\tau$. Image embeddings are computed once per
+screen and shared by every instruction on it; each new instruction costs one text embedding and a matrix product.
+
+\paragraph{Per-screen listwise training.}
+A list is good when the target ranks high among the \emph{other candidates of the same screen}, so we train
+for that rank directly. For an instruction $q$ on a screen with candidates $C$ and matched targets $T\subseteq C$,
+\begin{equation}
+  \mathcal{L}(q) = -\log \sum_{t\in T} \frac{\exp s(q,t)}{\sum_{c\in C} \exp s(q,c)} ,
+\end{equation}
+which counts any matched target as correct (a target box can match several overlapping candidates). All other
+boxes on the screen, including near-identical neighbouring icons, act as hard negatives. We compare against
+SigLIP's pointwise sigmoid loss over the same pairs in \cref{sec:ablations}.
+
+\paragraph{Training data.}
+Instructions and target boxes come from public grounding sets that are disjoint from our evaluation benchmarks:
+OS-Atlas desktop (macOS and Linux)~\cite{wu2024osatlas}, MMBench-GUI~\cite{wang2025mmbenchgui},
+OmniACT~\cite{kapoor2024omniact} and WebLINX~\cite{lu2024weblinx}. We run our candidate generator on their
+screenshots and mark as targets the candidates whose centre falls in the answer box or that overlap it with
+IoU $>0.3$ (and are at most $4\times$ its area). This gives 4{,}816 training screens with 63{,}141 instructions;
+253 further screens are held out to select the checkpoint by recall@10. Per step we keep every target and sample
+up to 96 candidates and 16 instructions per screen.
+We fine-tune SigLIP-Base/16 at $384$ px~\cite{zhai2023siglip} with AdamW (lr $10^{-5}$, weight decay $0.05$,
+one-cycle schedule, bf16) for three epochs; held-out recall@10 rises from $0.749$ (zero-shot) to $0.958$.
+
+\paragraph{Labelling.}
+Text options are labelled with their OCR string. Only icons that survive the cut are captioned, with OmniParser's
+Florence-2 captioner on the icon crop, so the captioning cost grows with $K$ and not with the number of elements
+on the screen. Batched on an A10G, captioning costs about 2~ms per icon.

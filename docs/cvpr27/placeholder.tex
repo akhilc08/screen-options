@@ -1,0 +1,14 @@
+\documentclass[10pt,twocolumn,letterpaper]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{times}
+\begin{document}
+\title{Beyond the Accessibility Tree: Fast, Instruction-Aware Option Lists from Pixels for Computer-Use Agents}
+\author{Anonymous CVPR submission\\Paper ID \emph{(placeholder)}}
+\date{}
+\maketitle
+\begin{abstract}
+Computer-use agents act by choosing among the elements on a screen, but the accessibility (AX) trees they rely on routinely omit icons, canvas widgets and custom controls, and pixel-based parsers that caption every detected element are slow. We study how to build, from pixels alone, the list of on-screen options that a separate decision model (the agent's LLM) chooses from: our system does not click, it proposes, so the goal is that the needed element is on a short list, quickly, rather than that a single predicted point is correct. Our pipeline merges OCR text with boxes from a tiled detector trained on AX and grounding labels, and recovers the target element for 83.6\%, 96.0\% and 98.8\% of tasks on OSWorld-G, ScreenSpot-Pro and ScreenSpot-v2, without any accessibility information. Because captioning, not detection, dominates latency, we rank candidates before describing them: an instruction-aware ranker, a SigLIP model fine-tuned with context crops and a per-screen listwise loss on grounding data disjoint from the evaluation sets, scores each candidate against the task instruction. Keeping the top 50 candidates retains the target in 75.0\%, 81.8\% and 98.6\% of tasks (versus 38.8\%, 31.0\% and 93.4\% when ordering by detector confidence) while captioning up to 8$\times$ fewer elements. We release the candidate lists, ranking benchmark and models.
+\end{abstract}
+\section*{Placeholder}
+This is a placeholder document uploaded at paper enrollment. The full paper will replace it before the submission deadline.
+\end{document}

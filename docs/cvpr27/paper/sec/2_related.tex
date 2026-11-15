@@ -1,0 +1,30 @@
+\section{Related work}
+\label{sec:related}
+
+\paragraph{Screen parsing.}
+Pixel-based parsers recover element boxes from screenshots. Examples are tappability and UI-element detectors on
+mobile~\cite{swearngin2019tappability,zhang2021screenrecognition}, web element detection trained on rendered
+pages~\cite{wu2023webui}, and OmniParser~\cite{lu2024omniparser}, which combines OCR, a YOLO icon detector and a
+Florence-2 captioner and hands the result to a large model. Screen2AX~\cite{muryn2025screen2ax} predicts a macOS
+accessibility hierarchy from pixels. These systems produce a list but do not rank it for an instruction. We use
+OmniParser's detector as one of our candidate sources and focus on what comes after detection.
+
+\paragraph{GUI grounding.}
+Grounding models map an instruction and a screenshot to a click point:
+SeeClick~\cite{cheng2024seeclick}, UGround~\cite{gou2025uground}, OS-Atlas~\cite{wu2024osatlas},
+ShowUI~\cite{lin2025showui}, Aria-UI~\cite{yang2024ariaui}, JEDI~\cite{xie2025jedi}, GUI-Actor~\cite{wu2025guiactor},
+GTA1~\cite{yang2025gta1}, GUI-AIMA~\cite{zhou2025guiaima} and UI-Venus~\cite{gu2025uivenus}. GroundCUA and the
+GroundNext models~\cite{feizi2026groundcua} scale grounding data with human demonstrations on desktop software.
+Their output is a single point, so when the point is wrong the agent has nothing to fall back on; we show that
+their point and our ranking combine well. High-resolution benchmarks such as \sspro~\cite{li2025screenspotpro}
+motivated zoom-in and search strategies~\cite{li2025screenspotpro,wu2025zoomclick}. RankGround~\cite{fan2026rankground}
+uses a lightweight reranker to choose which high-resolution crops a grounding model sees. There the reranker serves
+the grounder, whereas our ranked list of elements is itself the output.
+
+\paragraph{Candidate ranking for agents.}
+MindAct~\cite{deng2023mind2web} ranks HTML elements with a cross-encoder before a language model chooses among
+the top 50, and Prune4Web~\cite{prune4web} prunes DOM candidates with generated scoring programs. Both operate on
+HTML text. The closest visual analogues are learning-to-rank for object proposals~\cite{tan2019proposalrank} and
+region--text matching with CLIP-style models~\cite{zhong2022regionclip,sun2024alphaclip}. Visual prompts such as a
+red circle~\cite{shtedritski2023redcircle} or a blurred surround~\cite{yang2023fgvp} tell a CLIP model which region
+is meant. Our ranker applies these ideas to screen elements, with a listwise loss over all candidates of a screen.

@@ -1,0 +1,17 @@
+\begin{abstract}
+Computer-use agents act by choosing among the elements on a screen. The accessibility (AX) trees they usually
+rely on omit icons, canvas widgets and custom controls, and pixel parsers that caption every detected element are
+slow and hand the agent hundreds of options. We study how to build, from pixels alone, the list of on-screen options
+that a \emph{separate} decision model chooses from. Our system proposes options and never clicks, so we ask whether
+the needed element is on a short list and how quickly the list is built, not whether one predicted point is
+correct. Candidates come from OCR merged with a tiled detector trained on accessibility labels and a public GUI
+detector; together they contain the target element for 83.8\%, 96.0\% and 98.5\% of tasks on \osw, \sspro and
+\ssv. Labelling candidates costs more than detecting them, so we rank before labelling: a SigLIP model fine-tuned
+on context crops with a per-screen listwise loss scores every candidate against the instruction. The top 50
+candidates contain the target in 75.1\%, 81.8\% and 98.5\% of tasks (39.5\%, 31.0\% and 93.9\% when ordered by
+detector confidence) and need up to 8$\times$ fewer icon captions. Ranked lists complement single-point GUI
+grounders: adding a grounder's click to our scores gives lists that contain the target more often than either
+alone (\sspro: 89.0\% in the top 50). An off-the-shelf VLM selector given our top 10 instead of the full candidate
+list picks the right element 1.5$\times$ more often on \osw and 3.7$\times$ more often on \sspro, from prompts
+4--8$\times$ shorter.
+\end{abstract}

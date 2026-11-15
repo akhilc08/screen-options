@@ -1,0 +1,41 @@
+\section{Introduction}
+\label{sec:intro}
+
+At every step, an agent that operates a computer must turn an instruction (``generate the bitstream'', ``attach
+the debugger'') into an action on one element of the screen. Two designs dominate. \emph{Grounding models} read the
+screenshot and output a click point directly~\cite{gou2025uground,wu2024osatlas,wu2025guiactor,xie2025jedi}.
+\emph{List-based agents} receive a list of candidate elements, each with a label and a location, and choose
+one~\cite{deng2023mind2web,lu2024omniparser}. The list usually comes from the accessibility (AX) tree that the
+operating system or browser exposes.
+
+List-based agents have practical advantages. The chooser can be a small text model, the list can be inspected and
+logged, and a chooser that is unsure can ask or try the next option. All of this depends on the list being good,
+and AX trees are often incomplete: icon-only buttons, canvas content, custom-drawn toolbars and many
+cross-platform frameworks expose little or nothing. Pixel parsers such as OmniParser~\cite{lu2024omniparser} fill
+the gap by detecting elements and captioning each icon. On a dense professional application they return hundreds
+of candidates, and captioning all of them takes longer than the decision itself.
+
+This paper studies the component in between: \emph{building, from pixels alone, the option list that a separate
+model chooses from}. Because our system never clicks, its job is to put the element the instruction refers to on a
+short list, quickly. We therefore measure \emph{coverage at $K$}, the fraction of tasks whose target is among the
+first $K$ options, together with latency, instead of the top-1 accuracy of a click.
+
+\paragraph{Contributions.}
+\begin{itemize}
+\item We formulate instruction-aware option-list construction as a ranking problem with an explicit trade-off
+between coverage, list length and latency, and evaluate it on three public grounding benchmarks with
+leakage-filtered splits (\cref{sec:setup}).
+\item A pixel-only candidate generator that merges OCR, a detector fine-tuned on free accessibility labels and a
+public GUI detector. It lists the target for 83.8\% / 96.0\% / 98.5\% of tasks on \osw / \sspro / \ssv
+(\cref{sec:candidates}).
+\item An instruction-aware ranker: SigLIP~\cite{zhai2023siglip} fine-tuned on \emph{context crops} (a window
+around each candidate with the candidate outlined) with a \emph{per-screen listwise} loss that uses the other
+candidates on the same screen as negatives. Ranking before labelling raises \cov{50} from 31.0\% to 81.8\% on
+\sspro and needs up to 8$\times$ fewer icon captions (\cref{sec:ranker}).
+\item A comparison with state-of-the-art single-point grounders under the same protocol. Their clicks and our
+rankings complement each other: fused, they give the highest coverage at every $K$ on all three benchmarks
+(\cref{sec:grounders}).
+\item A downstream test with the selector held fixed: an off-the-shelf VLM picks the right element far more often
+from our top 10 than from the full unranked list (\sspro: 34.6\% vs.\ 9.4\%), with prompts up to 8$\times$
+shorter (\cref{sec:selector}).
+\end{itemize}

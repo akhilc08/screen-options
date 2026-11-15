@@ -1,0 +1,60 @@
+\clearpage
+\setcounter{page}{1}
+\maketitlesupplementary
+
+\section{Coverage by category}
+\label{sec:supp-category}
+
+\Cref{tab:supp-category} breaks down the coverage of our frozen ranker (\cref{tab:main}) by the categories the
+benchmarks annotate, next to UI-Venus-1.5-8B's single click (\cref{tab:grounders}). For \osw, which has no comparable
+category field, we bin targets by area as a share of the screen (442 of the 481 instructions have a box target;
+the rest are polygons).
+
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{l r rrr r}
+\toprule
+Subset & $n$ & listed & \cov{10} & \cov{50} & Venus@1 \\
+\midrule
+\multicolumn{6}{l}{\emph{\osw, by target area}} \\
+\quad all & 481 & 83.8 & 58.8 & 75.1 & 74.2 \\
+\quad $<0.01\%$ & 31 & 19.4 & 16.1 & 19.4 & 38.7 \\
+\quad $0.01$--$0.1\%$ & 241 & 82.6 & 53.9 & 73.4 & 68.9 \\
+\quad $\ge 0.1\%$ & 170 & 95.3 & 68.2 & 83.5 & 83.5 \\
+\midrule
+\multicolumn{6}{l}{\emph{\sspro}} \\
+\quad all & 500 & 96.0 & 64.8 & 81.8 & 69.8 \\
+\quad CAD & 82 & 93.9 & 41.5 & 67.1 & 64.6 \\
+\quad Creative & 111 & 94.6 & 66.7 & 78.4 & 63.1 \\
+\quad Dev & 95 & 95.8 & 62.1 & 83.2 & 68.4 \\
+\quad Office & 69 & 97.1 & 76.8 & 94.2 & 89.9 \\
+\quad OS & 58 & 98.3 & 75.9 & 89.7 & 74.1 \\
+\quad Scientific & 85 & 97.6 & 70.6 & 83.5 & 65.9 \\
+\quad text targets & 301 & 96.7 & 73.1 & 85.7 & 85.7 \\
+\quad icon targets & 199 & 95.0 & 52.3 & 75.9 & 45.7 \\
+\midrule
+\multicolumn{6}{l}{\emph{\ssv}} \\
+\quad all & 326 & 98.5 & 95.1 & 98.5 & 96.9 \\
+\quad desktop & 130 & 99.2 & 96.2 & 99.2 & 98.5 \\
+\quad mobile & 157 & 98.1 & 94.3 & 98.1 & 96.8 \\
+\quad web & 39 & 97.4 & 94.9 & 97.4 & 92.3 \\
+\quad text targets & 192 & 99.5 & 98.4 & 99.5 & 99.0 \\
+\quad icon targets & 134 & 97.0 & 90.3 & 97.0 & 94.0 \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Coverage by category} (leakage-filtered). listed: the target is among all candidates;
+Venus@1: UI-Venus-1.5-8B's click lands on the target.}
+\label{tab:supp-category}
+\end{table}
+
+\emph{Tiny targets are lost before ranking.} On \osw, targets below $0.01\%$ of the screen are listed only 19\% of
+the time, and every listed one is in our top 50. These are slider positions, resize grips and character spans that
+no detector boxes.
+
+\emph{A ranked list helps most for icons.} On \sspro icon targets, our top 50 contains the target 75.9\% of the
+time, while the grounder's single click is right 45.7\% of the time. On text targets the two are level (85.7\%).
+
+\emph{CAD is the hardest domain.} Its targets are listed as often as elsewhere (93.9\%), but they are small,
+unlabelled tool icons whose meaning depends on the application, and \cov{50} drops to 67\%.

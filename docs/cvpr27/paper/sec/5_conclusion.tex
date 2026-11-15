@@ -1,0 +1,17 @@
+\section{Limitations and conclusion}
+\label{sec:conclusion}
+
+\paragraph{Limitations.}
+Our ranker scores candidates independently, so instructions defined by layout (``the third row'') are hard for it;
+a set-level second stage over the top candidates could address them. Targets that are not elements at all, such as
+a position along a slider, never enter the list. Coverage is measured against benchmark answer boxes matched to
+candidates, which can over- or under-count when boxes nest. We also evaluate single decisions, not multi-step task
+success.
+
+\paragraph{Conclusion.}
+We built the screen's option list from pixels, ranked it for the instruction before labelling anything, and judged
+it by whether the needed element is on a short list. A context-crop SigLIP ranker trained with a per-screen
+listwise loss raises \cov{50} on \sspro from 31\% to 82\% and needs up to 8$\times$ fewer captions. Its rankings
+complement single-point grounders: fused with a grounder's click, they give a selector alternatives to recover from
+when the click is wrong. With the selector held fixed, the shorter ranked list is also more accurate: on \sspro an
+off-the-shelf VLM goes from 9.4\% with every candidate to 34.6\% with our top 10.

@@ -7,3 +7,14 @@ __pycache__/
 *.mlpackage/
 .DS_Store
 .env
+
+# LaTeX build files and the CVPR template clone
+docs/cvpr27/kit/
+*.aux
+*.log
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+*.out
+*.synctex.gz

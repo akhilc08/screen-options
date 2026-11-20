@@ -1,0 +1,38 @@
+[
+ {
+  "model": "/home/ubuntu/screen-options/runs/det/axdet_640/weights/best.pt",
+  "imgsz": 640,
+  "mAP50": 0.6081485141946825,
+  "mAP50-95": 0.47715243707174004,
+  "recall@0.5": 0.6686509193000232,
+  "center_recall": 0.9013362041669305,
+  "boxes": 46,
+  "ms": 14.123078501143027,
+  "screens": 3275,
+  "gt": 142119
+ },
+ {
+  "model": "/home/ubuntu/screen-options/runs/det/axgpa_1280/weights/best.pt",
+  "imgsz": 640,
+  "mAP50": 0.5692801211362547,
+  "mAP50-95": 0.4085038655906315,
+  "recall@0.5": 0.6932992773661509,
+  "center_recall": 0.9771459129321203,
+  "boxes": 64,
+  "ms": 14.236092003557133,
+  "screens": 3275,
+  "gt": 142119
+ },
+ {
+  "model": "/home/ubuntu/screen-options/runs/det/axgpa_1280/weights/best.pt",
+  "imgsz": 1280,
+  "mAP50": 0.6213538795555424,
+  "mAP50-95": 0.5047252830481316,
+  "recall@0.5": 0.7255117190523435,
+  "center_recall": 0.9732266621633983,
+  "boxes": 65,
+  "ms": 20.710534001409542,
+  "screens": 3275,
+  "gt": 142119
+ }
+]

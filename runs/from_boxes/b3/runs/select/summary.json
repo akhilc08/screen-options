@@ -1,0 +1,218 @@
+{
+ "osworld_g": {
+  "conf@10": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.12,
+   "accuracy_fitting": 0.12,
+   "coverage": 0.152,
+   "acc_if_covered": 0.7895,
+   "median_ms": 760,
+   "median_tokens": 1561
+  },
+  "conf@50": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.2,
+   "accuracy_fitting": 0.2,
+   "coverage": 0.386,
+   "acc_if_covered": 0.5181,
+   "median_ms": 1039,
+   "median_tokens": 2601
+  },
+  "full": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.236,
+   "accuracy_fitting": 0.236,
+   "coverage": 0.836,
+   "acc_if_covered": 0.2823,
+   "median_ms": 2129,
+   "median_tokens": 6788
+  },
+  "ours@10": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.372,
+   "accuracy_fitting": 0.372,
+   "coverage": 0.59,
+   "acc_if_covered": 0.6305,
+   "median_ms": 760,
+   "median_tokens": 1578
+  },
+  "ours@25": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.38,
+   "accuracy_fitting": 0.38,
+   "coverage": 0.68,
+   "acc_if_covered": 0.5588,
+   "median_ms": 842,
+   "median_tokens": 1991
+  },
+  "ours@5": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.368,
+   "accuracy_fitting": 0.368,
+   "coverage": 0.526,
+   "acc_if_covered": 0.6996,
+   "median_ms": 729,
+   "median_tokens": 1445
+  },
+  "ours@50": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.368,
+   "accuracy_fitting": 0.368,
+   "coverage": 0.75,
+   "acc_if_covered": 0.4907,
+   "median_ms": 1030,
+   "median_tokens": 2689
+  }
+ },
+ "screenspot_pro": {
+  "conf@10": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.042,
+   "accuracy_fitting": 0.042,
+   "coverage": 0.072,
+   "acc_if_covered": 0.5833,
+   "median_ms": 763,
+   "median_tokens": 1597
+  },
+  "conf@50": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.128,
+   "accuracy_fitting": 0.128,
+   "coverage": 0.31,
+   "acc_if_covered": 0.4129,
+   "median_ms": 1048,
+   "median_tokens": 2685
+  },
+  "full": {
+   "n": 500,
+   "n_too_long": 4,
+   "accuracy": 0.094,
+   "accuracy_fitting": 0.0948,
+   "coverage": 0.96,
+   "acc_if_covered": 0.0979,
+   "median_ms": 4043,
+   "median_tokens": 13316
+  },
+  "ours@10": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.346,
+   "accuracy_fitting": 0.346,
+   "coverage": 0.648,
+   "acc_if_covered": 0.534,
+   "median_ms": 762,
+   "median_tokens": 1595
+  },
+  "ours@25": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.342,
+   "accuracy_fitting": 0.342,
+   "coverage": 0.756,
+   "acc_if_covered": 0.4524,
+   "median_ms": 851,
+   "median_tokens": 2008
+  },
+  "ours@5": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.334,
+   "accuracy_fitting": 0.334,
+   "coverage": 0.544,
+   "acc_if_covered": 0.614,
+   "median_ms": 738,
+   "median_tokens": 1457
+  },
+  "ours@50": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.316,
+   "accuracy_fitting": 0.316,
+   "coverage": 0.818,
+   "acc_if_covered": 0.3863,
+   "median_ms": 1036,
+   "median_tokens": 2702
+  }
+ },
+ "screenspot_v2": {
+  "conf@10": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.426,
+   "accuracy_fitting": 0.426,
+   "coverage": 0.496,
+   "acc_if_covered": 0.8589,
+   "median_ms": 760,
+   "median_tokens": 1595
+  },
+  "conf@50": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.734,
+   "accuracy_fitting": 0.734,
+   "coverage": 0.936,
+   "acc_if_covered": 0.7842,
+   "median_ms": 1023,
+   "median_tokens": 2641
+  },
+  "full": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.764,
+   "accuracy_fitting": 0.764,
+   "coverage": 0.988,
+   "acc_if_covered": 0.7733,
+   "median_ms": 1048,
+   "median_tokens": 2692
+  },
+  "ours@10": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.802,
+   "accuracy_fitting": 0.802,
+   "coverage": 0.948,
+   "acc_if_covered": 0.846,
+   "median_ms": 760,
+   "median_tokens": 1603
+  },
+  "ours@25": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.8,
+   "accuracy_fitting": 0.8,
+   "coverage": 0.974,
+   "acc_if_covered": 0.8214,
+   "median_ms": 842,
+   "median_tokens": 2026
+  },
+  "ours@5": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.79,
+   "accuracy_fitting": 0.79,
+   "coverage": 0.906,
+   "acc_if_covered": 0.872,
+   "median_ms": 737,
+   "median_tokens": 1460
+  },
+  "ours@50": {
+   "n": 500,
+   "n_too_long": 0,
+   "accuracy": 0.788,
+   "accuracy_fitting": 0.788,
+   "coverage": 0.986,
+   "acc_if_covered": 0.7992,
+   "median_ms": 1009,
+   "median_tokens": 2652
+  }
+ }
+}

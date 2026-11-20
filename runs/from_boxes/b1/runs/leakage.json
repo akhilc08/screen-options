@@ -1,0 +1,988 @@
+{
+ "osworld_g": {
+  "osworld_g/images/5TLJMXTVRF.png": [
+   [
+    3,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_linux/1d41c853_c2a6724c_479ae0d71e5d6049e9338f44a74fc0fb7206b62522ba3aa0379312f5826cfe2b.png"
+   ],
+   [
+    4,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_linux/1d41c853_c2a6724c_aec6603ecf20dc18eb3641a38ebb1e8fd9c7efb697df10039cc4ef1774eac7ac.png"
+   ],
+   [
+    4,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_linux/1d41c853_c2a6724c_ec542da6e82892bc07e806ecd84015fdce0143fbb134cbc917912f97fbf5e5d8.png"
+   ]
+  ],
+  "osworld_g/images/B8IYUU0NND.png": [
+   [
+    6,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_linux/1d41c853_c2a6724c_ec542da6e82892bc07e806ecd84015fdce0143fbb134cbc917912f97fbf5e5d8.png"
+   ]
+  ],
+  "osworld_g/images/yDzPBBqsAM.png": [
+   [
+    6,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_linux/1d41c853_8ca3635c_d725a6597e1fd157a2c8d76d51e48c9d48a3802956773ef030c1c243bc13237e.png"
+   ]
+  ]
+ },
+ "screenspot_pro": {},
+ "screenspot_v2": {
+  "screenspot_v2/screenspotv2_image/web_de7dcaf3-f2e3-49f4-84fd-36088f39238c.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_d1e30331da40fdd8a932c1ab2ca4961797644e2226e29a739cd4fdebab5ac5a7.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_df804fb9-f96e-425e-b1a3-fe8f6810a1de.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_46fb78731cf46eb66acd1a97465b94af6b20e205708c2c60672a1d0b26a7b013.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_df166734-1f33-4e1d-887f-292ee9c21502.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_f1f8dc8496d4d325200eec381585bf869848bbea98f651c4fc06f9fbcfb0942e.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_c6e1ac03-ebaf-4ebe-8fb2-5d6f8769f385.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_a424ef0273b4579e4fa598049880635221a27ea68bb40b7c74e1d114110a6339.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_3925834b-893d-4cdf-b9cf-a602466175f3.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_b0f1239e81e324c721088c6c5df642e1040f7f210a8bfea019e086a286dbb2cb.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_f2db3d49-18fb-4517-8de8-bd5d73efecb9.png": [
+   [
+    5,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_598dbfcf1306c63f6d840ecc53f1db002e09a368e3db4d4c77224c11f7d0700c.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_46f8e4b9-c563-43f2-a651-4b1e80ee9907.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_b6678192244488519032143bfede27cfd8a4939d24d663970bdefc050442041f.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_1cc05cca-502a-41c3-aebc-b901f85a40fd.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_f7d4d6dd70007e03085da8ea114d2aab00b60d756b982d9091462ab08f1fc929.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_fd8befe1-4e5b-4de2-9978-db25d2be2173.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_48851e7fc277a661f1fd34d756fda005a5c043e1e87a89620122a45556fdae38.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_ddeabd10-ccfc-4881-b301-9364d7a04279.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_4660bd4969b8653763825ce3d4cf1ba6a007086175e34f5e09ca4c62c405207c.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_14087e07-67d9-494e-bdbf-16ed67985a72.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_837775824b66a2b73dbc300a58fb670bf3e6e3f58b6650d16cdfc79bae9ad7fe.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_8da8fbf4-c2b0-495f-88d3-9eb682c15ce7.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_70270c9ea84589566f48a8caa163c970f6e25cc2b9d4639b8186f93b9b18f024.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_kxukat.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_8ad42c3056479bf4ebbdc4f6ff31e89f17e3feed7b9ff2ff84d08225a963d55d.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_bd7a1ecb-e3e7-4a79-ba7e-91ae27a861ba.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_9070062fa5f4a648d334b648851d3623e314eb5fb457cee6004b0cbb685cfb25.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_e40f1b3f-0f26-4313-a6a2-d79e1047951b.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_70f81db2450b23258878c995794e0305f40c71ef491e6e203794cad263329f8f.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_d86766a4-4d7f-467a-899e-dcde8472e632.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_d75866be26146e9066169e9695b8806eff961eebaa4b3a7355b1cef7b2a3f3ae.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_dbd7514b-9ca3-40cd-b09a-990f7b955da1.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_cb5c31326c5bbb1a66af678eef69642241fc745bcbef21375d49f017dcee1194.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_7d1b09cc-3602-4670-9fb2-d81afb5ec381.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_aa615c16587cc631e88a2b11fac3bbd0bce49919aee18ab62008dba285d3f25f.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_5313a7b6-4c3a-442f-a5d3-6d53fc8d3ad9.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_f5cd3f43699c176489ec047d56d9921828322570227558feccbd82b4c518ad38.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_e0fb2f66-6e2c-42d6-8cfd-34e510f1ab2e.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_baedcc5643a94fc61e4e7205b6e2a9a1a74899a9035385c2e08583cac253057d.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_5766e094-3b76-4b5f-8399-e47ff5506df2.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_8d6f5fa0019201919105e1644e40afd87e82455830dc6878d3f5107089161083.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_98d5a92a-e7d5-4fa6-8c36-83dc78c3fce6.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_94f8ed2c8fd34185c6b0f906454c2eaa646cf0a956b61c9664a9b284d696b546.png"
+   ],
+   [
+    3,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_293a171cf86aa3d0934fbadcb098668d01382ca461f46c9e2a9ad34455898bf7.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_573eb5de-79cc-411a-a984-d7c28d8e5ce3.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_c02ea688aef52b6ebf6edd3d4c39b1126450eec090378e31904c7c3d26748e2d.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_6466b8cc-deea-451a-8019-d0684052d771.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_3319dc24cca5a4fa70c1e3c0a8f80d32d44678cab1bfa9c1f5bc9dbf5eebf9b6.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_aa8f1636-1c5c-4a79-b8d9-f92956ba78e9.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_ab8ea4fbf49ff80483f9d59fd9cc56c9354bd8565608b21c4ed9bdc66e15fc7e.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_48f086db-edfd-43d3-95b8-b2eee50367da.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_b05e5550394111e2c0e2d45eed99a115b58e3246f6fff00c1c402410f7dfeb25.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_8yff90.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_c1ee286c3216668dc13bcbdb55a3d6b3ce45e6c766bbc679b18d2b43ae7baf57.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_ec01cb13-de9a-4a4b-9a79-5f810b034474.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_3379df61ee88df120c375d90f8e04bdb7b220e34d3746d0dfafb725bafd9f464.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_1c1d54b4-5ac1-40cd-9dc6-21a8d3c97d6e.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_1d9ec24ffc581661fe948af32d12209ac212a97e44b84787e12fc1c8a0ead921.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_6c677961-e540-4cc5-b725-5e301019a9f9.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_5ec9b8d80a4fd0dd57a4a7300e205abf29eecf9d3407cffb3c5673c867b36131.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_41a4c02b-d68f-48a0-9ea1-a5a20d2ddf3c.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_bfb311c886767218c0dcb08455c9ec6444cba1cf95a3ab5696dcbd5516ea97f1.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_2f3df3a1-d287-4457-91b3-a672d0f72f84.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_479c1978ef8b9997b010f9712b284acbbe4753ec2e4565a7be2baeef1a688d79.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_4e4113f0-12bd-4b49-84c4-88a5bbf7924b.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_02d2967234a8403fedefcff618d952a6e0abfc3abd5e2af1c26daf8beb7aaca4.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_9f4d72cc-149d-4613-b19a-759ee34d8a47.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_0f1e05d899cce5d3268abdd93e763048f67fee677b5dfe3ed6f33c029ab3d3e4.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_45f9eb11-1663-440f-9e73-78a34793ac95.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_e1742291843100f4003d0655b950493b47a56acb043efc86a172733d0154136d.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_d2dd06b0-8826-4dd6-a3b7-0d88c123a04b.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_8dd7ccdeafa00d7a58d45ded48c87f6accad62548d5598b2ded2acbe45ea411c.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_2450df5d-6082-4941-8fe5-ee61df8e7021.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_7fb3ad153623e8ed131975a99b12f1a8ae43b90f86980dec8e4aa0e4f7e5a5a6.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_s6sun5.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_4f3ffb46123c65f372d25e8d2992d76e2227b9a0a01d0ff436c88e8c9d2c5fa9.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_92ejhx.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_158ceabaed1a73ebaa17c37f32f627b645d65096455366b92a0e9d1bea40ab85.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_d9841866-2ee7-4afd-a77a-8c0e52f6691c.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_07b2df8b238c799e455ea7a99bbbfd74605e15d6dd3d714ce0d5579ad15f80f3.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_nnxneu.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_e9fe68106cbc2bb60568aab0c7bb8695b66944c5dc65c1e75a232710e91095b8.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_f80a102f-7b1a-40f4-ad52-193e52d0cda0.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_8e379881774ef422ab481075561e0f4e66dfd559c9f87340c7bc984fd9b55444.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/pc_8g2jf6.png": [
+   [
+    1,
+    "os_atlas_linux",
+    "os_atlas/linux_images/output_20240912_135713_original_screenshot.png"
+   ],
+   [
+    2,
+    "os_atlas_linux",
+    "os_atlas/linux_images/output_20240912_143539_original_screenshot.png"
+   ],
+   [
+    6,
+    "os_atlas_linux",
+    "os_atlas/linux_images/output_20240912_143643_original_screenshot.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_7so32e.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_87a4287a5812dc6a45438ca748a8fc43d29ba90823f2e1c4ca6215f29fc91ab8.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_37acd27f-731c-4292-8caf-159b9be41189.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_ff085bc558b6f77babd89e72853d47a7e032b676ec83134f28440c19b5c8f048.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_c9fe8f06-aa80-4f6a-abe2-5886567fdea3.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_8e52cf46b6d414001ab0d84eaa2c443429b3ded41d54ebdb591797739c93f93a.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_d1bbz4.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_56c20eb25b04c2cc9ec70e43de88b70ce5391f962f50b319f51239100f1db8da.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_c1b9d596-c60c-47e2-a863-ef92324405ef.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_65dfa3cc607e2e42ee095c53aae3a6991172ba32b2f2c06102ce3e1e7279fcf7.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_f680f8e6-e068-4ca9-9be6-2f78c2899e0a.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_735ce8eaed773bc0a11919e60a631eebedeba88e923b7236c78848dc9a474655.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_0558c1f4-c05b-49a8-8479-04b1575779d2.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_ca77905a11d32181c9e2cf3fcaa836d563dde72a0e01e50dbc70aebc276ff887.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_7a5f6ad5-ec34-4693-ac45-136547757893.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_f9d4522b7ff6f1c981a6ca409fcf9789e881c73d8026116fc47c95792383f734.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_9bbed1c6-3a9f-46ea-b2d3-39ae8abde54e.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_c7af4d3d916dfc6c0c2dce9cb6191ceae7eacfcad2b6de218ba02bd610788f7f.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_gxel80.jpg": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_63602d4f07baa3a92d07f79b57cb360296b5ce215dd9128972bda22308bd3433.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_201fbfed-1dd7-4532-b49a-b465ef775c8b.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_55771a8022d52bb75357ac2e421b883473cd8b73e0f87ff3dba4c4d5573566b1.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_e103f2b7-edaf-4acc-8b85-6cfb0b9c024c.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_8c9d8c2f55240ecb63a695fefbfc146f873ed306a0d28644b2fef9972fb8a7d1.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_921e2d81-b8a5-425a-81e6-476cd16f9bdb.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_e06a6486272e55c4fde5f12f9606e31c1006b75151cc773ea3498d395739dfb0.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_a4d22512-1c68-4fda-9b49-d207326365ce.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_56533b720456be777776faa86f03eeb66e74784630f90d24a2edce35d77f7e98.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_r2k5yc.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_3e14c4834e05409d6217881c6b6e20e06d5208b6b59ab8312a964d1a03afad18.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_dd867d69-511e-4ab2-834e-2e111c7b3198.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_1cfe2d50119b414937dcde946278012eb31295c483246b0b94487eee9b8ce492.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_6bfcd1af-894e-4c63-b1c1-c5fabf589029.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_c7c0d3227aa9ba8dd39e9487c96e061fa56f4c7c24889be98953bbbfc9a23dc6.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_5fb77d07-dd26-4a0c-959b-7c74fd49d22f.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_80084973280200eddf30eef556e0c24f591b9e1ea5b4c777e34e553b625b61c5.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_7ywy7e.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_671352a51aa56c68e831599e2aa8f59643ad089cbb90883233a3d6af99d64b6f.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_3261789b-bffc-4bfb-94d3-fe2a787e3f3f.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_361f453e9502b44e4cfba1d41418272eebdae08c98c91a473d72134b4d46ea06.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_147f0485-994a-4176-bd82-88d81ab8607a.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_6232259dde6345654f53ca6811b1f00ec86f4cab2b4f7892081563fdebb3e9b5.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_9618f323-7310-4d6e-9c79-a476427ca1ae.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_c6e787de033a982394893ddaa35a98095e37d48188c8115325237ce51a378595.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_18b2ff57-9a0c-48e6-a754-de728b5a0479.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_58f270de03b3bf62dfad9ebfb313566d39803a36fe0f4fb095273c73b6ebf6d7.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_e891e448-0f8e-4673-9122-405a48cabad3.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_0c01dcea4f9d932d9e39f030ae8225dce39539dc82c91317a5e9a10e19fb97c8.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_dkh41m.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_75dedc073495528f9f57721f19bd340bf9a6aa41595fb8824fcc2027a44184db.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_94a52247-8dd4-4f19-82ea-19185a9b2649.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_45f37f850f5a490064055fe11077a0d243da0877937775a82d0531573ce5eab0.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_6e041214-1095-476a-8779-04db83de5781.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_f4e8ea8532d9dad199c9c14e9071179c500ddd9559f4cc82cd7b0b18a7e8560d.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_60786716-b5ae-47f4-bd46-c5f9a0e87293.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_d2ddc30e7d96a77b7e34c59ac2bada4990636aa47cbadc344d7ea282f4de4544.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_fd8d71f6-4229-4458-a77e-7d8a6347c8e9.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_215f137124ac8fe03519b587d5b246c2a659c1876654b86b8c1c9bb4cf1eed66.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_c5db0d44-6584-42e2-85c7-e4802276bad0.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_b3bbca8191723f8bf97ccc48760f7f7a179beab2adce36853d3463a96d50ae8d.png"
+   ],
+   [
+    3,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_0e3346e80dd587593bce6f44abacb65a4212b9afbae4281dc025badb45bfb129.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_1152be83-7090-45b9-9465-e5acc02d867d.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_bdbf1cf7ffcdf25c9f10d500f85f7289adb1a531e388e44f2406f4f713d108c4.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_6f420f7d-e710-428d-99fa-9606adb5f509.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_590eae1fe696a989d209e9e789b891c14ac5e3aaa5b3caa27bb708487d973f60.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_7fa2512c-eaa9-4195-a8a3-a1ad5d359ff1.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_6a3f1288273c6fadb54f51fc68772ca4183b1c26531bb557f293bc028363d635.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_f4ee1ae3-a244-40f8-90cb-e68411f00636.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_7a18d44965e7ce74fd8356f62d85d106680b3ec2b3d3bce3f0b15a8a55e416a2.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_12280689-e3e1-4a36-ba3c-709acb969b32.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_748295b703866923c2162edef36ec97721fff46fc0039180a78570a7a4771d10.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_9043e264-b5ec-4da5-ae7a-b19cfc1d178b.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_958c8e91b2ca5b0f0811698b10080b3cf377c7d296ec65a9943baf5979766a68.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_78657904-325d-4ee2-b319-36dc1abe7e54.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_c594dba2c27bc12492a99d9df6b6e55521c6c5f3ba9d91619ef83fac53e40057.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_1a514eae-4ee0-4780-a059-c47715828e3b.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_bd8975b315e4fd62853cc368278eea084b53e0a3ce92cb8844e1332df2169ccb.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_2345b5ec-6280-470e-9a6d-92a85d8b8873.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_4f7f8782ae1747a01e5199d5b06274827f414dea311bc1e94f3389b68e7cda29.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_93dec21b-d612-41df-9f76-933ceadaba66.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_00c0a0cd013dd0786d8244bfe6c93ecbea773001daa6f47eace40875fcbf7f31.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_dd6b5395-a2da-4d88-a971-c2815899f84d.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_084bafa29e4bd7ffc44635ff319d46e08d3fa682b80cd71ef2a13ebb9dc9e7e0.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_cd72d06c-67ca-4ed8-b550-dcf4b33e5381.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_49df92da6821101dc6c0296decc00cb3babcdf25698c2075796be6a054bb87a1.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_889c379a-7f36-4aad-9516-b09773cd6b84.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_0ce7ec658e74a35bad671a42529ca38f2fdbbdb717672e0c37a797ae24da112c.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_32fce6b7-8437-4877-8436-f67c99d82f81.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_501f08488121298637b124d8c3d9b086bc1dc2f6db7a996a6d776565bd12211d.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_af76d21a-0a23-49c3-bc5b-842073bf28af.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_b16a99039d577658043da7201a842e367481d90a56226d56b104e8900405dd6e.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_a905f71b-cfe3-4add-b37e-fa2a96067b8c.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_2f9f27368c0b074745b53dcd9a0f65206d2340778e921a8534afb55578a85b43.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_5c9fb5f1-7d84-4283-8ba4-7821a9545c95.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_1600fd7847bb4a98e11bd4161632c7c81fff1048ad0c2ae9c34e3ab6a007bc12.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_2bda50e8-15d0-473a-a8cb-bd0777963756.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_9d01c96586931ae3f1e7bbe4e815f7eadb7b41d4ae3c231c20d702a9ed0fe0a2.png"
+   ],
+   [
+    4,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_be579269d3e40c6dc886454ac4e1f235c8cc0d1930d6ca807fd8127fbde23595.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_843805d1-f33a-400f-bcdd-901a9ae91329.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_247fe3315d16bdd18846aeabe8bb02aa743374d553d3ce4d668f10e436fdb309.png"
+   ],
+   [
+    6,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_d5af812109186b53c108153a93763b91fd3722b9eb39614fb4305f110b6e17a2.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_c307580d-6e2e-4ffb-bb0d-3e156ec524e3.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_daafd401e0dd6ee5fab6cdf9b3a6b7f6d0d688f528170d34cd2a351e511f7b09.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/pc_pl3ry1.png": [
+   [
+    0,
+    "os_atlas_macos",
+    "os_atlas/macos_images/20240905_140515_screenshot.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_cmyhc5.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_792b7108addaeb35f84862fa62a8a763d11d05bf004bf0795b6084e540777f6c.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_b9537ded-e771-43c7-bab4-1db747625d87.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_d95091305fc46d7d28b425d63dd962e21ca31808449dfb1953475e8aceea6816.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_y5xkl0.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_58da2f06996b0d904abcad6c6572f265c0963f5ca14671bf175f1fe616080cc5.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_9443f61f-7d14-4e60-8297-29df73b7cbdd.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_360adbd8e5070905812a9edf45e0114fc5e4cc7006b70d9d6d56f77ffbe11131.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_77e68e05-bbe4-4f54-96fa-79f714c17505.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_eccabd9707db1ae06d130eb7d1a4be99b0d6c88dd7309d8d287f226235ecd904.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_d48576d2-c431-4030-9cc0-c811c752c3a8.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_c69b47ea157feeccf570fe115ae25de9ea202f69db3720ee8ea9ebb14ee7c488.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_bb6f684d-6060-478d-aceb-d0b77c23a68b.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_81e8590f132a28b3c730f9b964fccdf62ea380e5b7205213c1d279b60d619614.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_c762cbb8-b6b0-48e3-84ad-5c4090137fa2.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_306257c6064aaa150b9c62a18ce697d4ca2b8f857ed8e8b3910c98ae58c5df8b.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_d45c0bb4-1ed8-494e-b099-2063efb1d729.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_4f0019319700d1ce7367dd50fed0cc1c42b87fbb56c879c63add5d681a12abb9.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_0092e09d-acc7-4ced-8871-47cb05a0a554.png": [
+   [
+    1,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_361f453e9502b44e4cfba1d41418272eebdae08c98c91a473d72134b4d46ea06.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_1d69cea6-1be7-4314-8bf1-5cd8e1939911.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_f45b15ea2b7f77d6aec2eea15bf0de7dea36047ba93d0b7617be4500c146ecd2.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_43eca188-6adf-4bfe-bb49-56dad5717132.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_1f29f6804253a71a30a3306cabbb82330244dde6aa5b9c07e0f7910b7c34f64d.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_8u6mj9.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_731fbd3b2f9e44d5a4e70d4451b380888323b56cc425a4dc4e0c76beba79e6dd.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_f1247381-fcf6-440f-8787-19bce69e28de.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_16589906b75ad96801296d0e90e6ca2c0e12f6c7f1af3f3207f0d10d185f4f01.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_5a0b5ec0-be59-484d-a291-4965a9de9c76.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_9a2394a636408aaf4de16ef652081e5a58b6f9307df6e22adc7a648fe6bf76ea.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_c1f1188d-1bd3-4ce6-8e3f-96628d07b0b9.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_d1baa39a24169111ea5f8a4758823c010661400ba2d357a45514409bcac6f164.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_0481a1db-93fd-4d1e-9146-15526e37eacd.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_d369e27634d5f57abbaaefc22fc9c5a3d53ee0ee7a62f02438f36be67e63dee3.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_8d623438-5ac7-44f8-ab67-e07309a92f4a.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_62dfba5d39d469b1a1039e17ae738ddaea8d44b268231219c601669a32f44e8b.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_16545bc1-c614-4dc3-a81c-3d349a93e07d.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_0face9f9844b31b3a39d13631b01861482d926f3303f104c5650b633d50e42eb.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_467ae916-9a16-4517-85cc-f439c79e8c44.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_468661b473d1866e0e0031416cdf86c06bc6305140bb2243c2960f425568b75e.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_29f17af5-5e60-41a0-8a0c-36a991a0a19d.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_6503a73a53ad97fdeeac609f79ed3cea0889dabb0f6581bc8d6ea8d9a7be8cc4.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_ff1666cb-81cb-4180-94ee-661a111749e4.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_caff41001f6be51aeb736badd49e81129643a489255193c50fe22e32f2a69e88.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_4b78be88-30cd-401d-8d6d-4ef5a035fbda.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_f3d6c4517ddf682bd4c44c9f073cca7526e9688e03d1450b410e0bbd59aab1ce.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_a8de66ff-c058-4617-9484-82662d95fbc1.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_6894e37ba4c7c1eac6dc5e34421c68e61a26c47f26be3dd4531daf7ac31aa496.png"
+   ],
+   [
+    1,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_c0df646c26d2f6148f0d8c127ec6a82f4cea6bce66da1b0b4ef92386cc1ebb57.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_8be1be42-6037-4cba-a78a-065e7a7d77ae.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_709ae836_01dcd317a54f279826eb37e3c5681fdd32b6ab5a32b34387ad9e8a171a71a8de.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_da9f908d-568d-4d65-8587-47870f78f678.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_4be632951311bb6d5f4fa9978736e510cb6550537367d6c0024f2f1e79891357.png"
+   ],
+   [
+    5,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_4bd1b52b2d3dc88c53ef5b1bda4537a00420f0f71ca5e5fbfa2f0798b4548542.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_833f9d90-a50c-4f03-9eb6-e740aa811fa0.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_b81f6e8974084610ab0fd5715fb324b27b2c2233cebc1c74276c9b7795ffe85d.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_e0f18fd6-2a59-4fab-89f0-864c70bba241.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_f1a15b5c5f61a823e7dc72274238c8b1b80886834601c49aaf676b3d871378f5.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_90c0cf0e-3885-46d1-a1fd-2b29645398d3.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_7b2a94763e0cf4609bf0ec4e72d8471bc874183d994f4346ce3e6928896a6417.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_6949b916-64c8-431f-8842-a29a9a557641.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_3f2831ef25b908652144a81fc834ef68dfa79c943a7178eb1df8bac476604079.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_f8c6a82c-5e0e-4067-a560-06e9615e65fe.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_fd40f936_0ceec0eb964bbe7c50ed02a4427a8acb5211a0dcd8a9af5a14e8cb8a1fc72c89.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_14c5f53b-8827-4d97-9adb-b3cbc4d6116a.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_f45b15ea2b7f77d6aec2eea15bf0de7dea36047ba93d0b7617be4500c146ecd2.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/mobile_db81809e-7672-4329-8453-f622d97fa7ca.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_ios/9e304d4e_52ee66fd_16718af6ff1f7f5f7a8f4751f9bb49558bd0812988998ea701baf1207798335b.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_6f93090a-81f6-489e-bb35-1a2838b18c01.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_738c023d_032ccd8771608e072ea632bcb1e3ae5890b90d34260534caed0c6c5ac25ae104.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/pc_rvnx5q.png": [
+   [
+    5,
+    "os_atlas_linux",
+    "os_atlas/linux_images/output_20240912_163343_original_screenshot.png"
+   ]
+  ],
+  "screenspot_v2/screenspotv2_image/web_200e430d-ec76-48af-987c-ad658b74ab33.png": [
+   [
+    0,
+    "mmbench_gui",
+    "mmbench_gui/offline_images/os_web/2567a5ec_f2b5c842_ceb0d6a5b61e167d5719c39948da61ac2b3ae309215fd8bdb8feb6eace33364a.png"
+   ]
+  ]
+ }
+}

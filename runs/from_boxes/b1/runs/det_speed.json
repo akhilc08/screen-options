@@ -1,0 +1,182 @@
+[
+ {
+  "set": "screenspot_pro",
+  "config": "omni",
+  "imgsz": 1280,
+  "tile": 0,
+  "ms_median": 42.4,
+  "ms_p90": 60.1,
+  "boxes_median": 284.5,
+  "screens": 100
+ },
+ {
+  "set": "screenspot_pro",
+  "config": "gpa1280",
+  "imgsz": 1280,
+  "tile": 0,
+  "ms_median": 45.1,
+  "ms_p90": 58.7,
+  "boxes_median": 300.0,
+  "screens": 100
+ },
+ {
+  "set": "screenspot_pro",
+  "config": "gpa640",
+  "imgsz": 640,
+  "tile": 0,
+  "ms_median": 37.0,
+  "ms_p90": 50.8,
+  "boxes_median": 57.0,
+  "screens": 100
+ },
+ {
+  "set": "screenspot_pro",
+  "config": "ours1280",
+  "imgsz": 1280,
+  "tile": 0,
+  "ms_median": 35.6,
+  "ms_p90": 36.1,
+  "boxes_median": 245.5,
+  "screens": 100
+ },
+ {
+  "set": "screenspot_pro",
+  "config": "ours640",
+  "imgsz": 640,
+  "tile": 0,
+  "ms_median": 34.4,
+  "ms_p90": 51.5,
+  "boxes_median": 151.0,
+  "screens": 100
+ },
+ {
+  "set": "screenspot_pro",
+  "config": "ours1280t",
+  "imgsz": 1280,
+  "tile": 1.0,
+  "ms_median": 256.0,
+  "ms_p90": 257.1,
+  "boxes_median": 657.5,
+  "screens": 100
+ },
+ {
+  "set": "screenspot_pro",
+  "config": "gpa1280t",
+  "imgsz": 1280,
+  "tile": 1.0,
+  "ms_median": 256.5,
+  "ms_p90": 257.4,
+  "boxes_median": 539.0,
+  "screens": 100
+ },
+ {
+  "set": "screenspot_pro",
+  "config": "ours640t2",
+  "imgsz": 640,
+  "tile": 2.0,
+  "ms_median": 168.4,
+  "ms_p90": 169.9,
+  "boxes_median": 609.0,
+  "screens": 100
+ },
+ {
+  "set": "screenspot_pro",
+  "config": "ours640t1",
+  "imgsz": 640,
+  "tile": 1.0,
+  "ms_median": 336.8,
+  "ms_p90": 339.7,
+  "boxes_median": 592.5,
+  "screens": 100
+ },
+ {
+  "set": "osworld_g",
+  "config": "omni",
+  "imgsz": 1280,
+  "tile": 0,
+  "ms_median": 28.1,
+  "ms_p90": 29.7,
+  "boxes_median": 143.5,
+  "screens": 100
+ },
+ {
+  "set": "osworld_g",
+  "config": "gpa1280",
+  "imgsz": 1280,
+  "tile": 0,
+  "ms_median": 28.3,
+  "ms_p90": 29.7,
+  "boxes_median": 175.5,
+  "screens": 100
+ },
+ {
+  "set": "osworld_g",
+  "config": "gpa640",
+  "imgsz": 640,
+  "tile": 0,
+  "ms_median": 17.1,
+  "ms_p90": 17.4,
+  "boxes_median": 200.0,
+  "screens": 100
+ },
+ {
+  "set": "osworld_g",
+  "config": "ours1280",
+  "imgsz": 1280,
+  "tile": 0,
+  "ms_median": 23.8,
+  "ms_p90": 24.1,
+  "boxes_median": 179.5,
+  "screens": 100
+ },
+ {
+  "set": "osworld_g",
+  "config": "ours640",
+  "imgsz": 640,
+  "tile": 0,
+  "ms_median": 17.1,
+  "ms_p90": 17.4,
+  "boxes_median": 169.5,
+  "screens": 100
+ },
+ {
+  "set": "osworld_g",
+  "config": "ours1280t",
+  "imgsz": 1280,
+  "tile": 1.0,
+  "ms_median": 95.1,
+  "ms_p90": 96.1,
+  "boxes_median": 226.5,
+  "screens": 100
+ },
+ {
+  "set": "osworld_g",
+  "config": "gpa1280t",
+  "imgsz": 1280,
+  "tile": 1.0,
+  "ms_median": 95.4,
+  "ms_p90": 96.0,
+  "boxes_median": 213.0,
+  "screens": 100
+ },
+ {
+  "set": "osworld_g",
+  "config": "ours640t2",
+  "imgsz": 640,
+  "tile": 2.0,
+  "ms_median": 51.6,
+  "ms_p90": 52.1,
+  "boxes_median": 243.0,
+  "screens": 100
+ },
+ {
+  "set": "osworld_g",
+  "config": "ours640t1",
+  "imgsz": 640,
+  "tile": 1.0,
+  "ms_median": 105.9,
+  "ms_p90": 107.3,
+  "boxes_median": 269.5,
+  "screens": 100
+ }
+]

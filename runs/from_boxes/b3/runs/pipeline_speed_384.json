@@ -1,0 +1,148 @@
+{
+ "gpu": "NVIDIA A10G",
+ "model": "runs/siglip/ctx384/best",
+ "osworld_g": {
+  "detect": {
+   "median": 189.5,
+   "p90": 192.0,
+   "mean": 139.4
+  },
+  "merge": {
+   "median": 13.7,
+   "p90": 20.6,
+   "mean": 12.9
+  },
+  "crop": {
+   "median": 15.2,
+   "p90": 21.7,
+   "mean": 14.7
+  },
+  "embed_img": {
+   "median": 484.5,
+   "p90": 727.5,
+   "mean": 445.9
+  },
+  "embed_text": {
+   "median": 11.1,
+   "p90": 11.3,
+   "mean": 11.1
+  },
+  "score": {
+   "median": 0.3,
+   "p90": 0.3,
+   "mean": 0.3
+  },
+  "total_gpu": {
+   "median": 655.6,
+   "p90": 920.4,
+   "mean": 624.4
+  },
+  "ocr_mac": {
+   "median": 150.0,
+   "p90": 209,
+   "mean": 157.1
+  },
+  "candidates": {
+   "median": 190.0,
+   "p90": 286,
+   "mean": 175.2
+  },
+  "n": 100
+ },
+ "screenspot_pro": {
+  "detect": {
+   "median": 253.9,
+   "p90": 510.6,
+   "mean": 362.7
+  },
+  "merge": {
+   "median": 35.3,
+   "p90": 57.6,
+   "mean": 39.5
+  },
+  "crop": {
+   "median": 42.6,
+   "p90": 63.5,
+   "mean": 41.6
+  },
+  "embed_img": {
+   "median": 1121.0,
+   "p90": 1710.1,
+   "mean": 1105.4
+  },
+  "embed_text": {
+   "median": 11.2,
+   "p90": 11.4,
+   "mean": 11.2
+  },
+  "score": {
+   "median": 0.3,
+   "p90": 0.3,
+   "mean": 0.3
+  },
+  "total_gpu": {
+   "median": 1596.2,
+   "p90": 2284.2,
+   "mean": 1560.7
+  },
+  "ocr_mac": {
+   "median": 212.5,
+   "p90": 362,
+   "mean": 237.6
+  },
+  "candidates": {
+   "median": 441.5,
+   "p90": 674,
+   "mean": 434.9
+  },
+  "n": 100
+ },
+ "screenspot_v2": {
+  "detect": {
+   "median": 179.3,
+   "p90": 205.5,
+   "mean": 154.7
+  },
+  "merge": {
+   "median": 3.6,
+   "p90": 9.2,
+   "mean": 5.2
+  },
+  "crop": {
+   "median": 7.9,
+   "p90": 13.6,
+   "mean": 8.7
+  },
+  "embed_img": {
+   "median": 119.9,
+   "p90": 289.4,
+   "mean": 165.9
+  },
+  "embed_text": {
+   "median": 11.1,
+   "p90": 11.3,
+   "mean": 11.1
+  },
+  "score": {
+   "median": 0.2,
+   "p90": 0.3,
+   "mean": 0.3
+  },
+  "total_gpu": {
+   "median": 317.9,
+   "p90": 548.5,
+   "mean": 345.9
+  },
+  "ocr_mac": {
+   "median": 140.0,
+   "p90": 185,
+   "mean": 138.6
+  },
+  "candidates": {
+   "median": 47.0,
+   "p90": 114,
+   "mean": 64.5
+  },
+  "n": 100
+ }
+}

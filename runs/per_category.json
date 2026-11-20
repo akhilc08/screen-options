@@ -1,0 +1,141 @@
+{
+ "osworld_g": {
+  "all": {
+   "n": 481,
+   "listed": 83.8,
+   "cov@10": 58.8,
+   "cov@50": 75.1,
+   "venus8b@1": 74.2
+  },
+  "0.01-0.1%": {
+   "n": 241,
+   "listed": 82.6,
+   "cov@10": 53.9,
+   "cov@50": 73.4,
+   "venus8b@1": 68.9
+  },
+  "area < 0.01%": {
+   "n": 31,
+   "listed": 19.4,
+   "cov@10": 16.1,
+   "cov@50": 19.4,
+   "venus8b@1": 38.7
+  },
+  "area >= 0.1%": {
+   "n": 170,
+   "listed": 95.3,
+   "cov@10": 68.2,
+   "cov@50": 83.5,
+   "venus8b@1": 83.5
+  }
+ },
+ "screenspot_pro": {
+  "all": {
+   "n": 500,
+   "listed": 96.0,
+   "cov@10": 64.8,
+   "cov@50": 81.8,
+   "venus8b@1": 69.8
+  },
+  "group CAD": {
+   "n": 82,
+   "listed": 93.9,
+   "cov@10": 41.5,
+   "cov@50": 67.1,
+   "venus8b@1": 64.6
+  },
+  "group Creative": {
+   "n": 111,
+   "listed": 94.6,
+   "cov@10": 66.7,
+   "cov@50": 78.4,
+   "venus8b@1": 63.1
+  },
+  "group Dev": {
+   "n": 95,
+   "listed": 95.8,
+   "cov@10": 62.1,
+   "cov@50": 83.2,
+   "venus8b@1": 68.4
+  },
+  "group OS": {
+   "n": 58,
+   "listed": 98.3,
+   "cov@10": 75.9,
+   "cov@50": 89.7,
+   "venus8b@1": 74.1
+  },
+  "group Office": {
+   "n": 69,
+   "listed": 97.1,
+   "cov@10": 76.8,
+   "cov@50": 94.2,
+   "venus8b@1": 89.9
+  },
+  "group Scientific": {
+   "n": 85,
+   "listed": 97.6,
+   "cov@10": 70.6,
+   "cov@50": 83.5,
+   "venus8b@1": 65.9
+  },
+  "type icon": {
+   "n": 199,
+   "listed": 95.0,
+   "cov@10": 52.3,
+   "cov@50": 75.9,
+   "venus8b@1": 45.7
+  },
+  "type text": {
+   "n": 301,
+   "listed": 96.7,
+   "cov@10": 73.1,
+   "cov@50": 85.7,
+   "venus8b@1": 85.7
+  }
+ },
+ "screenspot_v2": {
+  "all": {
+   "n": 326,
+   "listed": 98.5,
+   "cov@10": 95.1,
+   "cov@50": 98.5,
+   "venus8b@1": 96.9
+  },
+  "platform desktop": {
+   "n": 130,
+   "listed": 99.2,
+   "cov@10": 96.2,
+   "cov@50": 99.2,
+   "venus8b@1": 98.5
+  },
+  "platform mobile": {
+   "n": 157,
+   "listed": 98.1,
+   "cov@10": 94.3,
+   "cov@50": 98.1,
+   "venus8b@1": 96.8
+  },
+  "platform web": {
+   "n": 39,
+   "listed": 97.4,
+   "cov@10": 94.9,
+   "cov@50": 97.4,
+   "venus8b@1": 92.3
+  },
+  "type icon": {
+   "n": 134,
+   "listed": 97.0,
+   "cov@10": 90.3,
+   "cov@50": 97.0,
+   "venus8b@1": 94.0
+  },
+  "type text": {
+   "n": 192,
+   "listed": 99.5,
+   "cov@10": 98.4,
+   "cov@50": 99.5,
+   "venus8b@1": 99.0
+  }
+ }
+}

@@ -1,0 +1,26 @@
+[
+ {
+  "model": "/home/ubuntu/screen-options/runs/det/axdet_1280/weights/best.pt",
+  "imgsz": 640,
+  "mAP50": 0.5994463097118086,
+  "mAP50-95": 0.4291605257770824,
+  "recall@0.5": 0.6766512570451523,
+  "center_recall": 0.9069863987221976,
+  "boxes": 49,
+  "ms": 14.742776499588217,
+  "screens": 3275,
+  "gt": 142119
+ },
+ {
+  "model": "/home/ubuntu/screen-options/runs/det/axdet_1280/weights/best.pt",
+  "imgsz": 1280,
+  "mAP50": 0.6668602678650974,
+  "mAP50-95": 0.5398616034363136,
+  "recall@0.5": 0.7112771691329097,
+  "center_recall": 0.8999218964388997,
+  "boxes": 49,
+  "ms": 20.672688000558992,
+  "screens": 3275,
+  "gt": 142119
+ }
+]

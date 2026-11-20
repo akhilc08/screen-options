@@ -1,0 +1,52 @@
+{
+ "gpu": "NVIDIA A10G",
+ "model": "runs/siglip/ctx384/best",
+ "screenspot_pro": {
+  "detect": {
+   "median": 214.1,
+   "p90": 553.6,
+   "mean": 510.8
+  },
+  "merge": {
+   "median": 336.2,
+   "p90": 477.4,
+   "mean": 396.0
+  },
+  "crop": {
+   "median": 34.1,
+   "p90": 52.0,
+   "mean": 43.0
+  },
+  "embed_img": {
+   "median": 1017.4,
+   "p90": 1362.4,
+   "mean": 1031.5
+  },
+  "embed_text": {
+   "median": 11.0,
+   "p90": 11.0,
+   "mean": 11.0
+  },
+  "score": {
+   "median": 0.3,
+   "p90": 0.3,
+   "mean": 0.3
+  },
+  "total_gpu": {
+   "median": 1613.0,
+   "p90": 2456.4,
+   "mean": 1992.6
+  },
+  "ocr_mac": {
+   "median": 237,
+   "p90": 294,
+   "mean": 272.0
+  },
+  "candidates": {
+   "median": 399,
+   "p90": 537,
+   "mean": 405.4
+  },
+  "n": 5
+ }
+}
